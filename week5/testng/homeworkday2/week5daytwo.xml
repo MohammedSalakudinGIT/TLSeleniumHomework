@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DynamicLead">
+	<parameter name="url" value="http://leaftaps.com/opentaps"></parameter>
+	<parameter name="username" value="DemoSalesManager"></parameter>
+	<parameter name="password" value="crmsfa"></parameter>
+	<test thread-count="1" name="CRUDactions">
+		<classes>
+			<class name="week5.testng.homeworkday2.CreateLead" />
+			<class name="week5.testng.homeworkday2.EditLead" />
+			<class name="week5.testng.homeworkday2.DuplicateLead" />
+			<class name="week5.testng.homeworkday2.Mergelead" />
+			<class name="week5.testng.homeworkday2.DeleteLead" />
+		</classes>
+	</test> <!-- CRUDactions -->
+</suite> <!-- DynamicLead -->
