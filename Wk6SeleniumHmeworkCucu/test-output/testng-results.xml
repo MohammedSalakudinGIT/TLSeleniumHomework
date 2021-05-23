@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49716" started-at="2021-05-23T14:05:02 IST" finished-at="2021-05-23T14:05:52 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="49716" started-at="2021-05-23T14:05:02 IST" finished-at="2021-05-23T14:05:52 IST">
+      <class name="runner.LeadMasterRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="setUpClass" is-config="true" duration-ms="401" started-at="2021-05-23T14:05:02 IST" finished-at="2021-05-23T14:05:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="runScenario" duration-ms="12143" started-at="2021-05-23T14:05:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T14:05:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create multiple lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To create Lead]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="runScenario" duration-ms="9490" started-at="2021-05-23T14:05:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T14:05:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create multiple lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To create Lead]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="runScenario" duration-ms="14538" started-at="2021-05-23T14:05:24 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T14:05:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edit Lead (Positive)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To create Lead]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="runScenario" duration-ms="13081" started-at="2021-05-23T14:05:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-23T14:05:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Edit Lead (Positive)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[To create Lead]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.LeadMasterRunner@4a87761d]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2021-05-23T14:05:52 IST" finished-at="2021-05-23T14:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LeadMasterRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
